@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+}
+
+.headcontext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.link {
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+
+.secondlink {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.secondlink a {
+    text-decoration: none;
+    color: #4768F6;
+}
+
+.link>span {
+    opacity: 0.75;
+    font-weight: 100;
+}
+
+.link a {
+    text-decoration: none;
+    color: #4768F6;
+}
+
+.container span {
+    text-align: justify;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid rgb(194, 191, 191);
+    background: #FFFFFF;
+}
+
+input[type=email]:focus,
+input[type=password]:focus {
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+button {
+    width: 70%;
+    background-color: #459B76;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-size: 17px;
+    font-family: 'Dosis', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.container {
+    padding: 16px;
+}
+
+input:valid {
+    border: 1px solid #348d66;
+}
+
+
+/* input:invalid {
+    border: 1px solid rgb(189, 29, 29);
+} */
+
+.signupbtn {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    opacity: 0.5;
+}
+
+::placeholder {
+    content: '';
+    font-size: 17px;
+}
